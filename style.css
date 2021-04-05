@@ -1,0 +1,284 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Principal {
+  width: 100%;
+  height: 180px;
+  background: #74dc94;
+  margin-bottom: 20px;
+}
+.imagen {
+  position: absolute;
+  width: 180px;
+  height: 125px;
+  margin: 25px 0px 0px 50px;
+  display: flex;
+  justify-content: center;
+}
+/* img{
+    position: absolute;
+    width: 84%;
+    height: 100%;
+    object-fit: cover; 
+} */
+
+.Menu {
+  position: absolute;
+  top: 68px;
+  left: 20%;
+}
+div > ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+li {
+  margin: 12px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.Busqueda {
+  position: absolute;
+  height: 80px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  right: 130px;
+  top: 35px;
+}
+button.acceso {
+  color: #74dc94;
+  height: 30px;
+  font-size: 15px;
+  border: white;
+  cursor: pointer;
+}
+input {
+  background-color: #74dc94;
+  text-align: center;
+  width: 165px;
+  font-size: 22px;
+  color: #fff;
+  border-style: none;
+}
+input::placeholder {
+  color: #fff;
+  font-family: fangsong;
+}
+.fa-search {
+  font-size: 21px;
+}
+.fa-search:before {
+  position: absolute;
+  color: #fff;
+  top: 57px;
+  left: 30px;
+}
+
+/* --------- CAROUSEL ---------*/
+.Secundario {
+  width: 100%;
+  height: 680px;
+}
+
+.carousel__lista {
+  width: 100%;
+  height: 630px;
+}
+.carousel__elemento {
+  height: 630px;
+  width: 99%;
+  display: flex;
+  justify-content: center;
+}
+.carousel__elemento > img {
+  width: 1910px;
+  height: auto;
+  max-height: 630px;
+}
+
+/* -----------------TEMPORIZADOR ---------- */
+.repolla{
+  height: 300px;
+  width: 20%;
+  position: absolute;
+  top: 150px;
+  background: #7ED957;;
+}
+h1{
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.temporizador {
+  display: flex;
+  justify-content: center;
+}
+.temporizador .bloque {
+  margin: 0px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.temporizador .bloque div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  color: rgb(17, 12, 12);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100px;
+  height: 70px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.temporizador .bloque p {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+/* ----------------- NÚMEROS ------------ */
+.jugar{
+  height: 320px;
+  margin: auto;
+  position: absolute;
+}
+
+.baner_numero{
+  height: 300px;
+  width: 20%;
+  position: absolute;
+  top: 350px;
+  background: #7ED957;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.baner_numero h1{
+  display: block;
+  position: absolute;
+  top: 25px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+#generar{
+  position: absolute;
+  top: 200px;
+  height: 30px;
+  width: 160px;
+  color: #3be165;
+  font-size: 16px;
+  font-family: sylfaen;
+  border: white;  
+  cursor: pointer;
+}
+.baner_numero .numero1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border: white;
+  background: #fff;
+}
+.baner_numero .numero2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: white;
+    background: #fff;
+}
+.baner_numero .numero3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: white;
+    background: #fff;
+}
+.baner_numero .numero4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border: white;
+    background: #fff;
+}
+
+
+
+/* -----------------INDICADORES---------- */
+.carousel__indicadores .glider-dot {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: green;
+}
+
+.carousel__indicadores .glider-dot:hover {
+  background: green;
+  height: 25px;
+  width: 25px;
+}
+.carousel__indicadores .glider-dot.active {
+  opacity: 0.5;
+  background: green;
+}
+
+/* ------------------FOOTER--------------------- */
+footer {
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  background: #3be165;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+footer .x{
+  position: absolute;
+  right: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: rgb(134, 133, 133);
+  border-radius: 50%;
+  
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1307px) {
+  .carousel__lista{
+    height: 630px;
+  }
+  .carousel__elemento > img {
+    height: 700px;
+  }
+}

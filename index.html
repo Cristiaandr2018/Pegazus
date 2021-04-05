@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ESTILOS CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- GLIDER CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.css"
+    />
+
+    <title>REPOLLA</title>
+  </head>
+
+  <body>
+    <!-- INICIO PANEL PRINCIPAL -->
+    <div class="Principal">
+      <div class="imagen">
+        <img src="./Imágenes/Logotipo.png" alt="" />
+      </div>
+
+      <div class="Menu">
+        <ul>
+          <li>Home</li>
+          <li>¿Cómo jugar?</li>
+          <li>Resultados</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+
+      <div class="Busqueda">
+        <button class="acceso" type="submit">Acceso Natillera</button>
+
+        <i class="fas fa-search"> </i>
+        <input
+          type="text"
+          class="input"
+          placeholder="Search"
+          autocomplete="off"
+        />
+      </div>
+    </div>
+    <!--------------------- FIN PANEL PRINCIPAL ----------------------->
+
+    <!--------------------- INICIO CAROUSEL ---------------------------->
+
+    <div class="Secundario">
+      <div class="carousel__lista">
+        <div class="carousel__elemento">
+          <img src="./Imágenes/REPOLLA (1).png" />
+        </div>
+        <div class="carousel__elemento">
+          <img src="./Imágenes/REPOLLA (4).png" />
+        </div>
+        <div class="carousel__elemento">
+          <img src="./Imágenes/REPOLLA (3).png" />
+        </div>
+
+
+        <div class="carousel__elemento">
+            <div class="repolla">
+          <h1>ESTA REPOLLA CIERRA EN:</h1>
+          <div class="temporizador">
+            <div class="bloque">
+              <div class="dias" id="dias">00</div>
+              <p>Días</p>
+            </div>
+
+            <div class="bloque">
+              <div class="horas" id="horas">00</div>
+              <p>Horas</p>
+            </div>
+
+            <div class="bloque">
+              <div class="minutos" id="minutos">00</div>
+              <p>Minutos</p>
+            </div>
+
+            <div class="bloque">
+              <div class="segundos" id="segundos">00</div>
+              <p>Segundos</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="carousel__elemento">
+            <div class="jugar">
+                <img src="./Imágenes/como jugar.png" alt="" srcset="">
+            </div>
+            <div class="baner_numero">
+              <h1>GENERAR NÚMERO ALEATORIO</h1>
+                <div class="numero1" id="numero1"></div>
+                <div class="numero2" id="numero2"></div>
+                <div class="numero3" id="numero3"></div>
+                <div class="numero4" id="numero4"></div>
+                <button  id="generar" type="button" onClick="Numeros()" >Generar</button>
+              </div>
+        </div>
+
+
+      </div>
+
+      <div role="tablist" class="carousel__indicadores"></div>
+    </div>
+
+    <!-- FIN CAROUSEL -->
+
+    <footer>
+      <div class="salir-footer">
+      </div>
+      Al navegar por nuestro sitio aceptaras nuestras políticas de cookies
+      <div class="x">x</div>
+    </footer>
+
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/9aace335dc.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- GLIDER.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
